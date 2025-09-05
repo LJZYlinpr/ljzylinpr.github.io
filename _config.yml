@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Peiran Lin / Site Title"
+site_theme               : "air" # Currently available options are "default", "air"
+title                    : "Peiran Lin's Homepage"
 title_separator          : "-"
 name                     : &name "Peiran Lin"
 description              : &description "personal description"
