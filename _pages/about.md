@@ -11,7 +11,7 @@ redirect_from:
 Hi there! I’m **Peiran Lin (蔺培然)**, a fresh **PhD student** at the **School of Life Sciences, Westlake University**.  
 
 Right now, I’m diving into science at the [**Artificial Intelligence & Computational Biology Lab (Zeng Jianyang)**](https://www.westlake.edu.cn/faculty/jianyang-zeng.html),  
-while rotating through the [**Cell Biology Lab (Prof. Hongtao Yu)**](https://www.westlake.edu.cn/faculty/hongtao-yu.html) and the [**AI Research & Innovation Lab (Prof. Ziqing Li)**](https://www.westlake.edu.cn/faculty/stan-zq-li.html).  
+while rotating through the [**Cell Biology Lab (Prof. Hongtao Yu)**](https://www.westlake.edu.cn/faculty/hongtao-yu.html) and the [**AI Research & Innovation Lab (Prof. Ziqing Li)**](https://www.westlake.edu.cn/faculty/stan-zq-li.html).  I am currently serving as a member of the **External Relations Group** at the **Westlake University – Renmin University of China Institute for Future Humans**.
 
 🎓 I got my bachelor’s degree from **Shandong University**, majoring in both **Biology** and **Computer Science & Technology**.  
 
@@ -23,6 +23,7 @@ while rotating through the [**Cell Biology Lab (Prof. Hongtao Yu)**](https://www
 ---
 
 ## 🚀 Recent News
+- **Sep 25, 2025** — Joined the External Relations Group of the Executive Committee at the Institute for Future Humans.
 - **Sep 8, 2025** — Started lab rotation in Prof. Hongtao Yu’s group 🧬  
 - **Oct 20, 2025** — *Will begin rotation in Prof. Ziqing Li’s group* 🤖  
 - **Aug 22–24, 2025** — Joined *The First International Conference on AI & Biotechnology* @ Harbin Institute of Technology  
@@ -59,5 +60,8 @@ while rotating through the [**Cell Biology Lab (Prof. Hongtao Yu)**](https://www
 - **Jiani Sun** — Shandong Univ. ’23 undergraduate  
 - **Chuansen Yi** — Shandong Univ. undergraduate & MSc  
 - **Shuhuai Xu** — Shandong Univ. ’22 undergraduate  
+- **Qiwen Shi** — Shandong Univ. ’24 undergraduate
+- **Yisong Sheng** — Shandong Univ. ’24 undergraduate 
+
 
 ---
