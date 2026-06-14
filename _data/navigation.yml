@@ -11,5 +11,17 @@ main:
   - title: "Home"
     url: /
 
+  - title: "Education"
+    url: /education/
+
+  - title: "Research"
+    url: /research/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Miscellaneous"
+    url: /misc/
+
   - title: "Publications"
     url: /publications/

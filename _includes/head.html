@@ -18,4 +18,8 @@
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 
+{% if page.page_specific_css %}
+  <link rel="stylesheet" href="{{ page.page_specific_css | relative_url }}">
+{% endif %}
+
 <meta http-equiv="cleartype" content="on">
