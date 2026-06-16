@@ -1,0 +1,34 @@
+{
+  "updated_at": "2026-06-16",
+  "totals": {
+    "visits": 286,
+    "countries": 6,
+    "cities": 10
+  },
+  "countries": [
+    { "name": "China", "visits": 188 },
+    { "name": "United Kingdom", "visits": 29 },
+    { "name": "Australia", "visits": 24 },
+    { "name": "United States", "visits": 19 },
+    { "name": "Singapore", "visits": 15 }
+  ],
+  "cities": [
+    { "name": "Hangzhou", "country": "China", "visits": 76 },
+    { "name": "Jinan", "country": "China", "visits": 44 },
+    { "name": "Beijing", "country": "China", "visits": 31 },
+    { "name": "Wuhan", "country": "China", "visits": 19 },
+    { "name": "Canberra", "country": "Australia", "visits": 16 }
+  ],
+  "locations": [
+    { "name": "Hangzhou", "country": "China", "lat": 30.2741, "lon": 120.1551, "visits": 76 },
+    { "name": "Jinan", "country": "China", "lat": 36.6512, "lon": 117.1201, "visits": 44 },
+    { "name": "Beijing", "country": "China", "lat": 39.9042, "lon": 116.4074, "visits": 31 },
+    { "name": "Wuhan", "country": "China", "lat": 30.5928, "lon": 114.3055, "visits": 19 },
+    { "name": "Harbin", "country": "China", "lat": 45.8038, "lon": 126.5349, "visits": 10 },
+    { "name": "Canberra", "country": "Australia", "lat": -35.2809, "lon": 149.13, "visits": 16 },
+    { "name": "London", "country": "United Kingdom", "lat": 51.5072, "lon": -0.1276, "visits": 14 },
+    { "name": "New Haven", "country": "United States", "lat": 41.3083, "lon": -72.9279, "visits": 9 },
+    { "name": "Singapore", "country": "Singapore", "lat": 1.3521, "lon": 103.8198, "visits": 15 },
+    { "name": "Hong Kong", "country": "China", "lat": 22.3193, "lon": 114.1694, "visits": 12 }
+  ]
+}

@@ -30,12 +30,11 @@
 
 .page__content .home-shell::before {
   content: "";
-  position: fixed;
+  position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at top right, rgba(15, 118, 110, 0.12), transparent 28%),
-    radial-gradient(circle at left 20%, rgba(201, 134, 26, 0.10), transparent 24%),
-    linear-gradient(180deg, #f8fbfb 0%, #f5efe6 100%);
+    radial-gradient(circle at top right, rgba(15, 118, 110, 0.08), transparent 28%),
+    radial-gradient(circle at left 20%, rgba(201, 134, 26, 0.07), transparent 24%);
   z-index: -2;
 }
 
@@ -65,7 +64,7 @@
 .page__content .section-card {
   border: 1px solid var(--home-line);
   border-radius: 28px;
-  background: var(--home-surface);
+  background: rgba(255, 255, 255, 0.83);
   box-shadow: var(--home-shadow);
   backdrop-filter: blur(12px);
 }
@@ -255,7 +254,7 @@
   padding: 1.35rem 1.2rem;
   border: 1px solid var(--home-line);
   border-radius: 22px;
-  background: rgba(255, 255, 255, 0.74);
+  background: rgba(255, 255, 255, 0.78);
   box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
 }
 
@@ -438,7 +437,7 @@
   overflow: hidden;
   border: 1px solid var(--home-line);
   border-radius: 24px;
-  background: rgba(255, 255, 255, 0.78);
+  background: rgba(255, 255, 255, 0.82);
   box-shadow: 0 14px 30px rgba(15, 23, 42, 0.06);
 }
 
@@ -470,7 +469,252 @@
   padding: 1rem 1.05rem;
   border: 1px solid var(--home-line);
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.page__content .split-note {
+  margin-top: 0.9rem;
+  color: var(--home-muted);
+  line-height: 1.75;
+}
+
+.page__content .edu-grid,
+.page__content .team-grid {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.1rem;
+}
+
+.page__content .edu-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.page__content .edu-card,
+.page__content .team-card,
+.page__content .teaching-card,
+.page__content .map-feature {
+  padding: 1.1rem 1.15rem;
+  border: 1px solid var(--home-line);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.page__content .edu-card__label,
+.page__content .team-card__meta,
+.page__content .teaching-card__term,
+.page__content .map-feature__label {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  color: var(--home-accent);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.page__content .edu-card h3,
+.page__content .team-card h3,
+.page__content .teaching-card h3 {
+  margin: 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.7rem;
+  line-height: 1.02;
+}
+
+.page__content .edu-card p,
+.page__content .team-card p,
+.page__content .teaching-card p,
+.page__content .map-feature p {
+  margin: 0.6rem 0 0;
+}
+
+.page__content .team-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.page__content .team-card__meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+.page__content .team-card__meta strong {
+  color: var(--home-ink);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.page__content .team-card__link {
+  display: inline-flex;
+  margin-top: 0.75rem;
+  color: var(--home-accent);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.page__content .teaching-list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.1rem;
+}
+
+.page__content .map-feature {
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.page__content .visitor-analytics {
+  margin-top: 1.15rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.page__content .visitor-analytics__summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.85rem;
+}
+
+.page__content .visitor-stat-card,
+.page__content .visitor-ranking-card {
+  padding: 1rem 1.05rem;
+  border: 1px solid var(--home-line);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.page__content .visitor-stat-card__label,
+.page__content .visitor-ranking-card__label {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+  color: var(--home-accent);
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.page__content .visitor-stat-card strong {
+  display: block;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.page__content .visitor-map-board {
+  display: grid;
+  gap: 1rem;
+}
+
+.page__content .visitor-map-board__surface {
+  position: relative;
+  min-height: 300px;
+  overflow: hidden;
+  border: 1px solid var(--home-line);
+  border-radius: 26px;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(201, 134, 26, 0.07), transparent 24%),
+    radial-gradient(circle at 82% 18%, rgba(15, 118, 110, 0.08), transparent 26%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.84), rgba(244, 249, 248, 0.86));
+}
+
+.page__content .visitor-map-board__world,
+.page__content .visitor-map-board__grid,
+.page__content .visitor-map-board__points {
+  position: absolute;
+  inset: 0;
+}
+
+.page__content .visitor-map-board__world {
+  width: 100%;
+  height: 100%;
+}
+
+.page__content .visitor-map-board__world path {
+  fill: rgba(15, 118, 110, 0.12);
+  stroke: rgba(15, 118, 110, 0.16);
+  stroke-width: 2;
+}
+
+.page__content .visitor-map-board__grid {
+  background-image:
+    linear-gradient(rgba(15, 23, 42, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.04) 1px, transparent 1px);
+  background-size: 10% 20%;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.45));
+}
+
+.page__content .visitor-point {
+  position: absolute;
+  display: block;
+  border-radius: 999px;
+  background: rgba(15, 118, 110, 0.9);
+  box-shadow: 0 0 0 4px rgba(15, 118, 110, 0.12);
+  transform: translate(-50%, -50%);
+}
+
+.page__content .visitor-point__pulse {
+  position: absolute;
+  inset: 0;
+  border: 2px solid rgba(15, 118, 110, 0.28);
+  border-radius: inherit;
+  animation: visitor-pulse 2.8s ease-out infinite;
+  animation-delay: var(--pulse-delay);
+}
+
+.page__content .visitor-rankings {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.page__content .visitor-ranking-card ol {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.page__content .visitor-ranking-card li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+  color: var(--home-muted);
+}
+
+.page__content .visitor-ranking-card li:last-child {
+  margin-bottom: 0;
+}
+
+.page__content .visitor-ranking-card strong {
+  color: var(--home-ink);
+  font-size: 0.92rem;
+}
+
+.page__content .visitor-analytics--error .visitor-map-board__surface::after {
+  content: "Visitor data will appear here after analytics hookup.";
+  position: absolute;
+  inset: auto 1rem 1rem 1rem;
+  padding: 0.85rem 0.95rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--home-muted);
+}
+
+@keyframes visitor-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.65;
+  }
+
+  100% {
+    transform: scale(3.4);
+    opacity: 0;
+  }
 }
 
 .page__content .focus-column h3 {
@@ -629,6 +873,10 @@
   .page__content .home-metrics,
   .page__content .feature-pub-grid,
   .page__content .focus-columns,
+  .page__content .edu-grid,
+  .page__content .team-grid,
+  .page__content .visitor-analytics__summary,
+  .page__content .visitor-rankings,
   .publication-card,
   .ongoing-paper-grid {
     grid-template-columns: 1fr;

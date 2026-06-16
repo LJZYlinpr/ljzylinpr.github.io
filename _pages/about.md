@@ -13,8 +13,8 @@ redirect_from:
       <img class="profile-panel__avatar" src="/images/linpeiran.jpg" alt="Peiran Lin">
       <p class="section-kicker">Profile</p>
       <h2>Peiran Lin</h2>
-      <p class="profile-panel__title">PhD Student in Life Sciences</p>
-      <p class="profile-panel__bio">Mainly focused on AI for life science, virtual cells, spatial multi-omics, toxicology, and microbiology.</p>
+      <p class="profile-panel__title">PhD Student in Biology</p>
+      <p class="profile-panel__bio">Mainly focused on AI for life science, virtual cells, spatial multi-omics, and biologically grounded computational modeling.</p>
       <ul class="profile-panel__meta">
         <li>Hangzhou, China</li>
         <li>Westlake University</li>
@@ -28,21 +28,20 @@ redirect_from:
     </aside>
 
     <div class="hero-copy section-card">
-      <p class="hero-eyebrow">Peiran Lin | PhD Student, Westlake University</p>
-      <h1>Building AI methods for cellular systems, spatial omics, and biological discovery.</h1>
+      <p class="hero-eyebrow">Peiran Lin | Westlake University</p>
+      <h1>Building AI methods for life science, virtual cells, and spatial omics.</h1>
       <p class="hero-lead">
-        I am a PhD student in the School of Life Sciences at Westlake University. My work sits at the intersection of
-        computational biology, machine learning, and experimental life science, with current interests in single-cell and spatial omics,
-        cellular perturbation modeling, and biologically grounded AI systems.
+        I am a PhD student in Biology at Westlake University. My work focuses on AI for life science, with current interests in
+        virtual cells, gene regulatory networks, spatial multi-omics, and interpretable computational models that connect data with mechanism.
       </p>
       <div class="hero-labs">
-        <a class="hero-lab" href="https://www.westlake.edu.cn/faculty/jianyang-zeng.html">Artificial Intelligence & Computational Biology Lab</a>
-        <a class="hero-lab" href="https://www.westlake.edu.cn/faculty/hongtao-yu.html">Cell Biology Lab</a>
-        <a class="hero-lab" href="https://www.westlake.edu.cn/faculty/stan-zq-li.html">AI Research & Innovation Lab</a>
+        <a class="hero-lab" href="https://aicb.lab.westlake.edu.cn/index.htm">Artificial Intelligence & Computational Biology Lab</a>
+        <a class="hero-lab" href="https://lifesciences.westlake.edu.cn/labs/hongtao-yu/cell-biology-laboratory/lab-home/">Cell Biology Laboratory</a>
       </div>
       <div class="hero-actions">
         <a class="home-button home-button--primary" href="mailto:linpeiran@westlake.edu.cn">Email Me</a>
-        <a class="home-button" href="https://scholar.google.com/citations?hl=zh-CN&user=5XTeZSAAAAAJ">Google Scholar</a>
+        <a class="home-button" href="/publications/">View Publications</a>
+        <a class="home-button" href="/teaching/">Teaching</a>
       </div>
     </div>
 
@@ -50,10 +49,10 @@ redirect_from:
       <div class="hero-panel__card section-card">
         <p class="hero-panel__label">Current Snapshot</p>
         <ul class="snapshot-list">
-          <li><strong>Program</strong><span>PhD in Life Sciences</span></li>
+          <li><strong>Program</strong><span>PhD in Biology</span></li>
           <li><strong>Institution</strong><span>Westlake University, Hangzhou</span></li>
-          <li><strong>Primary Focus</strong><span>AI for omics and cell-state modeling</span></li>
-          <li><strong>Background</strong><span>Biology + Computer Science, Shandong University</span></li>
+          <li><strong>Research Direction</strong><span>AI for life science, virtual cells, spatial multi-omics</span></li>
+          <li><strong>Background</strong><span>Life Sciences + Computer Science and Technology, Shandong University</span></li>
         </ul>
       </div>
 
@@ -61,8 +60,12 @@ redirect_from:
         <p class="hero-panel__label">Latest Updates</p>
         <div class="mini-news-list">
           <article class="mini-news-item">
+            <span>2026.05.03</span>
+            <p>Contributed to a Westlake project that has been submitted to <em>Nature Neuroscience</em>.</p>
+          </article>
+          <article class="mini-news-item">
             <span>2025.11.15</span>
-            <p>Joined the Cell Biology Lab at Westlake University.</p>
+            <p>Joined the Cell Biology Laboratory at Westlake University.</p>
           </article>
           <article class="mini-news-item">
             <span>2025.09.25</span>
@@ -72,10 +75,6 @@ redirect_from:
             <span>2025.08.22</span>
             <p>Officially began my PhD journey at Westlake University.</p>
           </article>
-          <article class="mini-news-item">
-            <span>2024.12.10</span>
-            <p>Received the pre-admission offer from Westlake University.</p>
-          </article>
         </div>
       </div>
     </aside>
@@ -83,20 +82,20 @@ redirect_from:
 
   <section class="home-metrics">
     <div class="metric-card">
-      <span class="metric-card__value">4</span>
-      <span class="metric-card__label">Publications and conference papers listed</span>
-    </div>
-    <div class="metric-card">
-      <span class="metric-card__value">2025</span>
-      <span class="metric-card__label">Started PhD training at Westlake University</span>
+      <span class="metric-card__value">PhD</span>
+      <span class="metric-card__label">Biology training at Westlake University with an AI-for-life-science focus</span>
     </div>
     <div class="metric-card">
       <span class="metric-card__value">2</span>
-      <span class="metric-card__label">Undergraduate majors: Biology and Computer Science</span>
+      <span class="metric-card__label">Undergraduate majors: Life Sciences and Computer Science & Technology</span>
     </div>
     <div class="metric-card">
-      <span class="metric-card__value">AI + Bio</span>
-      <span class="metric-card__label">Research direction across data, models, and mechanism</span>
+      <span class="metric-card__value">GRN</span>
+      <span class="metric-card__label">Interested in virtual cells, regulatory modeling, and interpretable biological AI</span>
+    </div>
+    <div class="metric-card">
+      <span class="metric-card__value">2025</span>
+      <span class="metric-card__label">Started doctoral study at Westlake University after graduating from Shandong University</span>
     </div>
   </section>
 
@@ -105,33 +104,40 @@ redirect_from:
       <p class="section-kicker">Profile</p>
       <h2>About</h2>
       <p>
-        I am currently affiliated with the
-        <a href="https://www.westlake.edu.cn/faculty/jianyang-zeng.html">Artificial Intelligence & Computational Biology Lab</a>,
-        and have completed or planned rotations with the
-        <a href="https://www.westlake.edu.cn/faculty/hongtao-yu.html">Cell Biology Lab of Prof. Hongtao Yu</a>
-        and the
-        <a href="https://www.westlake.edu.cn/faculty/stan-zq-li.html">AI Research & Innovation Lab of Prof. Ziqing Li</a>.
-        I also serve in the External Relations Group of the Westlake University - Renmin University of China Institute for Future Humans.
+        I am currently studying Biology at Westlake University and working across computational and experimental life-science settings.
+        My training bridges algorithmic thinking and biological questions, especially where large-scale omics data can inform cell-state understanding.
       </p>
       <p>
-        My long-term goal is to build computational frameworks that help us interpret cell states, understand perturbation responses,
-        and turn high-dimensional biological measurements into actionable knowledge.
+        Before starting my PhD, I completed dual undergraduate training at Shandong University in Life Sciences and Computer Science and Technology.
+        I am especially motivated by problems where AI can help build mechanistic, testable models for living systems.
       </p>
+      <div class="edu-grid">
+        <article class="edu-card">
+          <span class="edu-card__label">Undergraduate</span>
+          <h3>Shandong University</h3>
+          <p>Life Sciences + Computer Science and Technology, building a cross-disciplinary foundation in biology and computation.</p>
+        </article>
+        <article class="edu-card">
+          <span class="edu-card__label">Doctoral Study</span>
+          <h3>Westlake University</h3>
+          <p>PhD student in Biology, focusing on AI for life science, virtual cells, spatial multi-omics, and GRN-related questions.</p>
+        </article>
+      </div>
     </div>
 
     <div class="section-card">
       <p class="section-kicker">Research</p>
       <h2>Current Interests</h2>
       <div class="chip-group">
-        <span class="interest-chip">Single-cell spatial omics</span>
-        <span class="interest-chip">Cellular perturbation modeling</span>
-        <span class="interest-chip">Large language models for biology</span>
-        <span class="interest-chip">Bioinformatics</span>
-        <span class="interest-chip">Toxicology</span>
-        <span class="interest-chip">Microbiology</span>
+        <span class="interest-chip">AI for life science</span>
+        <span class="interest-chip">Virtual cells</span>
+        <span class="interest-chip">Gene regulatory networks</span>
+        <span class="interest-chip">Spatial multi-omics</span>
+        <span class="interest-chip">Cell-state modeling</span>
+        <span class="interest-chip">Computational biology</span>
       </div>
       <p class="section-note">
-        I am especially interested in combining mechanistic biological questions with foundation-model style representations.
+        I am interested in turning complex biological measurements into interpretable models that can support discovery, perturbation analysis, and hypothesis generation.
       </p>
     </div>
   </section>
@@ -145,12 +151,20 @@ redirect_from:
     </div>
     <div class="timeline">
       <div class="timeline-item">
+        <span class="timeline-item__date">2026.05.03</span>
+        <p>My first Westlake-involved project was submitted to <em>Nature Neuroscience</em>.</p>
+      </div>
+      <div class="timeline-item">
         <span class="timeline-item__date">2025.11.15</span>
-        <p>Joined the Cell Biology Lab at Westlake University.</p>
+        <p>Joined the Cell Biology Laboratory at Westlake University.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-item__date">2025.11</span>
+        <p>Participated in a second visit in Prof. Ziqing Li's group and worked on virtual-cell GRN regulation prediction.</p>
       </div>
       <div class="timeline-item">
         <span class="timeline-item__date">2025.09.25</span>
-        <p>Joined the External Relations Group of the Executive Committee at the Institute for Future Humans.</p>
+        <p>Joined the External Relations Group of the Institute for Future Humans.</p>
       </div>
       <div class="timeline-item">
         <span class="timeline-item__date">2025.09.08</span>
@@ -174,68 +188,144 @@ redirect_from:
       </div>
       <div class="timeline-item">
         <span class="timeline-item__date">2025.03</span>
-        <p>Joined the AICB Lab at Westlake University as a visiting student.</p>
+        <p>Joined the Artificial Intelligence & Computational Biology Lab at Westlake University as a visiting student.</p>
       </div>
       <div class="timeline-item">
         <span class="timeline-item__date">2024.12.10</span>
         <p>Received the pre-admission offer from Westlake University.</p>
       </div>
       <div class="timeline-item">
-        <span class="timeline-item__date">2023.07-09</span>
+        <span class="timeline-item__date">2023.07.05-09</span>
         <p>Participated in the 14th National Symposium on Microbial Resources at Shandong University.</p>
       </div>
     </div>
   </section>
 
   <section class="home-grid home-grid--two">
-    <div class="section-card">
-      <div class="section-head">
-        <div>
-          <p class="section-kicker">Recognition</p>
-          <h2>Awards & Honors</h2>
+    <div class="section-stack">
+      <div class="section-card">
+        <p class="section-kicker">Team</p>
+        <h2>Collaborators & Team</h2>
+        <p class="split-note">A compact overview for the people I am learning from and collaborating with now. This section is structured so it will be easy for us to add photos and short bios later.</p>
+        <div class="team-grid">
+          <article class="team-card">
+            <div class="team-card__meta"><span>Westlake University</span><strong>Senior Labmate</strong></div>
+            <h3>Lei Hu</h3>
+            <p>Template reference and senior colleague at Westlake University.</p>
+          </article>
+          <article class="team-card">
+            <div class="team-card__meta"><span>Australian National University</span><strong>Collaborator</strong></div>
+            <h3>Jiayu Dengli</h3>
+            <p>Research collaborator with cross-institution experience.</p>
+            <a class="team-card__link" href="https://www.researchgate.net/profile/Lijiayu-Deng">Profile</a>
+          </article>
+          <article class="team-card">
+            <div class="team-card__meta"><span>Shandong University</span><strong>Collaborator</strong></div>
+            <h3>Luotong Xie</h3>
+            <p>Undergraduate-stage collaborator connected to earlier research training.</p>
+          </article>
+          <article class="team-card">
+            <div class="team-card__meta"><span>Further Study</span><strong>Collaborator</strong></div>
+            <h3>Jiajia Huang</h3>
+            <p>Collaborative partner from my extended academic network.</p>
+          </article>
+          <article class="team-card">
+            <div class="team-card__meta"><span>Shandong University</span><strong>Collaborator</strong></div>
+            <h3>Jiani Sun</h3>
+            <p>Collaborator in my broader biology and computation community.</p>
+          </article>
+          <article class="team-card">
+            <div class="team-card__meta"><span>Wuhan University</span><strong>Collaborator</strong></div>
+            <h3>Shuhuai Xu</h3>
+            <p>Academic collaborator across institutions.</p>
+          </article>
+          <article class="team-card">
+            <div class="team-card__meta"><span>King's College London</span><strong>Visiting Student</strong></div>
+            <h3>Xinran Zheng</h3>
+            <p>Westlake visiting student connection in the current collaboration network.</p>
+          </article>
+          <article class="team-card">
+            <div class="team-card__meta"><span>Tsinghua University</span><strong>Collaborator</strong></div>
+            <h3>Xiaoyu Dong</h3>
+            <p>Cross-disciplinary collaborator in the wider AI and biology community.</p>
+          </article>
+          <article class="team-card">
+            <div class="team-card__meta"><span>Shandong University</span><strong>Collaborator</strong></div>
+            <h3>Chuansen Yi</h3>
+            <p>Longer-term collaborator connected to my Shandong University background.</p>
+          </article>
         </div>
       </div>
-      <ul class="clean-list">
-        <li>Excellent Graduate of Shandong University</li>
-        <li>Second Place, UESTC Summer Camp for Postgraduate Recommendation</li>
-        <li>Shandong University Research & Innovation Excellence Awards</li>
-        <li>Runner-up, Northeast Asia Academic Conference Competition</li>
-        <li>Runner-up, Campus Singer Competition</li>
-      </ul>
+
+      <div class="section-card">
+        <p class="section-kicker">Teaching</p>
+        <h2>TA & Course Service</h2>
+        <div class="teaching-list">
+          <article class="teaching-card">
+            <span class="teaching-card__term">2025 | First PhD Semester</span>
+            <h3>中国马克思主义与当代</h3>
+            <p>Served as course representative during my first semester of doctoral study.</p>
+          </article>
+          <article class="teaching-card">
+            <span class="teaching-card__term">2026 | Second PhD Semester</span>
+            <h3>习近平新时代中国特色社会主义思想概论</h3>
+            <p>Worked as a teaching assistant and supported course organization.</p>
+          </article>
+        </div>
+      </div>
     </div>
 
     <div class="section-stack">
       <div class="section-card">
-        <p class="section-kicker">Network</p>
-        <h2>Collaborators & Co-workers</h2>
-        <ul class="clean-list">
-          <li>Lei Hu - Westlake University</li>
-          <li>Haoyi Zheng - Zeng Lab</li>
-          <li>Chang Yu - Westlake University</li>
-          <li>Lijiayu Deng - Australian National University</li>
-          <li>Luotong Xie, Jiani Sun, Chuansen Yi, Shuhuai Xu, Qiwen Shi, Yisong Sheng</li>
-        </ul>
-      </div>
-
-      <div class="section-card">
         <p class="section-kicker">Visitor Map</p>
-        <h2>Visitor Source Preview</h2>
+        <h2>Visitor Source</h2>
         <p>
-          A homepage map module will be connected using a third-party statistics solution, with total visits and source regions shown in aggregate form.
+          This homepage module is now structured for a third-party analytics workflow: total visits, approximate world distribution,
+          country ranking, city ranking, and animated visit pulses, while avoiding long-term raw IP retention.
         </p>
-        <ul class="clean-list">
-          <li>Total visit count will be displayed together with the map.</li>
-          <li>Country and city rankings will be shown if the provider supports them well.</li>
-          <li>Long-term raw IP storage will not be enabled by default.</li>
-        </ul>
-        <div class="visitor-map-placeholder">
-          <div class="visitor-map-placeholder__globe"></div>
-          <div class="visitor-map-placeholder__stats">
-            <span>Map module preview</span>
-            <strong>Waiting for analytics hookup</strong>
+        <div class="visitor-analytics" id="visitor-analytics" data-source="{{ '/assets/data/visitor-map.json' | relative_url }}">
+          <div class="visitor-analytics__summary">
+            <article class="visitor-stat-card">
+              <span class="visitor-stat-card__label">Total Visits</span>
+              <strong id="visitor-total-visits">0</strong>
+            </article>
+            <article class="visitor-stat-card">
+              <span class="visitor-stat-card__label">Countries</span>
+              <strong id="visitor-total-countries">0</strong>
+            </article>
+            <article class="visitor-stat-card">
+              <span class="visitor-stat-card__label">Cities</span>
+              <strong id="visitor-total-cities">0</strong>
+            </article>
+          </div>
+          <div class="visitor-map-board">
+            <div class="visitor-map-board__surface">
+              <svg class="visitor-map-board__world" viewBox="0 0 1000 480" aria-hidden="true">
+                <path d="M104 181c44-48 105-85 173-93 53-7 93 7 113 36 15 22 21 52 49 63 20 8 44 4 56 20 9 13 5 31-1 46-16 41-57 76-106 85-54 10-117 1-170-23-41-18-90-55-124-95-18-22-30-48-26-71 3-21 17-41 36-68z"></path>
+                <path d="M395 143c38-33 79-55 130-58 50-2 107 22 146 66 28 31 43 74 89 90 25 9 59 2 75 23 17 22 8 57-13 81-20 23-49 41-67 67-18 25-23 59-45 78-29 24-77 31-117 20-42-11-77-38-112-65-37-28-83-51-107-88-20-30-22-72-12-108 10-39 33-78 33-106z"></path>
+                <path d="M748 171c28-15 61-21 89-10 35 13 53 47 67 78 10 22 25 47 19 72-8 37-54 50-80 74-24 22-31 57-55 77-27 22-70 28-101 10-31-18-34-56-42-88-12-47-47-89-43-134 3-35 33-63 67-79 25-12 52-11 79 0z"></path>
+                <path d="M820 354c16-8 39-8 55 2 16 10 20 29 16 45-5 18-21 34-41 41-19 7-42 5-57-7-16-13-20-36-12-53 7-13 22-22 39-28z"></path>
+                <path d="M286 338c18-13 40-18 59-9 25 12 29 41 27 65-3 28-16 61-45 74-22 10-52 3-66-16-15-20-13-49-5-72 6-17 15-31 30-42z"></path>
+              </svg>
+              <div class="visitor-map-board__grid" aria-hidden="true"></div>
+              <div class="visitor-map-board__points" id="visitor-map-points"></div>
+            </div>
+            <div class="visitor-rankings">
+              <article class="visitor-ranking-card">
+                <span class="visitor-ranking-card__label">Top Countries</span>
+                <ol id="visitor-country-ranking"></ol>
+              </article>
+              <article class="visitor-ranking-card">
+                <span class="visitor-ranking-card__label">Top Cities</span>
+                <ol id="visitor-city-ranking"></ol>
+              </article>
+            </div>
+          </div>
+          <div class="map-feature">
+            <span class="map-feature__label">Privacy Note</span>
+            <p>Approximate aggregate display only. For a real GitHub Pages deployment, the IP-to-location aggregation still needs a third-party service or lightweight external endpoint.</p>
           </div>
         </div>
       </div>
-    </div>
   </section>
 </div>
