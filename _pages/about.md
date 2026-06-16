@@ -13,8 +13,8 @@ redirect_from:
       <img class="profile-panel__avatar" src="/images/linpeiran.jpg" alt="Peiran Lin">
       <p class="section-kicker">Profile</p>
       <h2>Peiran Lin</h2>
-      <p class="profile-panel__title">PhD student at Westlake University</p>
-      <p class="profile-panel__bio">Mainly focused on AI for life science, virtual cells, and spatial multi-omics.</p>
+      <p class="profile-panel__title">PhD Student in Life Sciences</p>
+      <p class="profile-panel__bio">Mainly focused on AI for life science, virtual cells, spatial multi-omics, toxicology, and microbiology.</p>
       <ul class="profile-panel__meta">
         <li>Hangzhou, China</li>
         <li>Westlake University</li>
@@ -29,19 +29,19 @@ redirect_from:
 
     <div class="hero-copy section-card">
       <p class="hero-eyebrow">Peiran Lin | PhD Student, Westlake University</p>
-      <h1>AI for life science, virtual cells, and spatial multi-omics.</h1>
+      <h1>Building AI methods for cellular systems, spatial omics, and biological discovery.</h1>
       <p class="hero-lead">
-        I am a PhD student at Westlake University with research interests spanning AI for life science, virtual cells,
-        spatial multi-omics, marine toxicology, and microbiology. My current training connects computational modeling
-        with biological mechanisms, especially around how AI can help describe, predict, and interpret complex cellular systems.
+        I am a PhD student in the School of Life Sciences at Westlake University. My work sits at the intersection of
+        computational biology, machine learning, and experimental life science, with current interests in single-cell and spatial omics,
+        cellular perturbation modeling, and biologically grounded AI systems.
       </p>
       <div class="hero-labs">
-        <a class="hero-lab" href="https://aicb.lab.westlake.edu.cn/index.htm">AICB Lab</a>
-        <a class="hero-lab" href="https://lifesciences.westlake.edu.cn/labs/hongtao-yu/cell-biology-laboratory/lab-home/">Cell Biology Laboratory</a>
+        <a class="hero-lab" href="https://www.westlake.edu.cn/faculty/jianyang-zeng.html">Artificial Intelligence & Computational Biology Lab</a>
+        <a class="hero-lab" href="https://www.westlake.edu.cn/faculty/hongtao-yu.html">Cell Biology Lab</a>
+        <a class="hero-lab" href="https://www.westlake.edu.cn/faculty/stan-zq-li.html">AI Research & Innovation Lab</a>
       </div>
       <div class="hero-actions">
         <a class="home-button home-button--primary" href="mailto:linpeiran@westlake.edu.cn">Email Me</a>
-        <a class="home-button" href="/publications/">View Publications</a>
         <a class="home-button" href="https://scholar.google.com/citations?hl=zh-CN&user=5XTeZSAAAAAJ">Google Scholar</a>
       </div>
     </div>
@@ -50,9 +50,9 @@ redirect_from:
       <div class="hero-panel__card section-card">
         <p class="hero-panel__label">Current Snapshot</p>
         <ul class="snapshot-list">
-          <li><strong>Program</strong><span>PhD student</span></li>
-          <li><strong>Institution</strong><span>Westlake University</span></li>
-          <li><strong>Research Focus</strong><span>AI for life science, virtual cells, spatial multi-omics</span></li>
+          <li><strong>Program</strong><span>PhD in Life Sciences</span></li>
+          <li><strong>Institution</strong><span>Westlake University, Hangzhou</span></li>
+          <li><strong>Primary Focus</strong><span>AI for omics and cell-state modeling</span></li>
           <li><strong>Background</strong><span>Biology + Computer Science, Shandong University</span></li>
         </ul>
       </div>
@@ -83,20 +83,20 @@ redirect_from:
 
   <section class="home-metrics">
     <div class="metric-card">
-      <span class="metric-card__value">10</span>
-      <span class="metric-card__label">Published papers, submissions, and manuscripts tracked</span>
-    </div>
-    <div class="metric-card">
-      <span class="metric-card__value">2</span>
-      <span class="metric-card__label">Active research lab environments across AI and cell biology</span>
+      <span class="metric-card__value">4</span>
+      <span class="metric-card__label">Publications and conference papers listed</span>
     </div>
     <div class="metric-card">
       <span class="metric-card__value">2025</span>
-      <span class="metric-card__label">Started formal PhD training at Westlake University</span>
+      <span class="metric-card__label">Started PhD training at Westlake University</span>
+    </div>
+    <div class="metric-card">
+      <span class="metric-card__value">2</span>
+      <span class="metric-card__label">Undergraduate majors: Biology and Computer Science</span>
     </div>
     <div class="metric-card">
       <span class="metric-card__value">AI + Bio</span>
-      <span class="metric-card__label">From virtual counseling and embryo tempo to toxicology and microbiology</span>
+      <span class="metric-card__label">Research direction across data, models, and mechanism</span>
     </div>
   </section>
 
@@ -105,15 +105,17 @@ redirect_from:
       <p class="section-kicker">Profile</p>
       <h2>About</h2>
       <p>
-        My training connects biological questions with computational thinking. I currently work across the
-        <a href="https://aicb.lab.westlake.edu.cn/index.htm">Artificial Intelligence and Computational Biology Lab</a>
+        I am currently affiliated with the
+        <a href="https://www.westlake.edu.cn/faculty/jianyang-zeng.html">Artificial Intelligence & Computational Biology Lab</a>,
+        and have completed or planned rotations with the
+        <a href="https://www.westlake.edu.cn/faculty/hongtao-yu.html">Cell Biology Lab of Prof. Hongtao Yu</a>
         and the
-        <a href="https://lifesciences.westlake.edu.cn/labs/hongtao-yu/cell-biology-laboratory/lab-home/">Cell Biology Laboratory</a>,
-        giving me a research perspective that moves between modeling, data analysis, and experimental biological systems.
+        <a href="https://www.westlake.edu.cn/faculty/stan-zq-li.html">AI Research & Innovation Lab of Prof. Ziqing Li</a>.
+        I also serve in the External Relations Group of the Westlake University - Renmin University of China Institute for Future Humans.
       </p>
       <p>
-        Before joining Westlake University, I studied both biology and computer science at Shandong University.
-        That dual background continues to shape how I approach problems: I am especially interested in building tools that make biological complexity more interpretable and usable.
+        My long-term goal is to build computational frameworks that help us interpret cell states, understand perturbation responses,
+        and turn high-dimensional biological measurements into actionable knowledge.
       </p>
     </div>
 
@@ -121,15 +123,15 @@ redirect_from:
       <p class="section-kicker">Research</p>
       <h2>Current Interests</h2>
       <div class="chip-group">
-        <span class="interest-chip">AI for life science</span>
-        <span class="interest-chip">Virtual cells</span>
-        <span class="interest-chip">Spatial multi-omics</span>
-        <span class="interest-chip">Embryo development modeling</span>
-        <span class="interest-chip">Marine toxicology</span>
+        <span class="interest-chip">Single-cell spatial omics</span>
+        <span class="interest-chip">Cellular perturbation modeling</span>
+        <span class="interest-chip">Large language models for biology</span>
+        <span class="interest-chip">Bioinformatics</span>
+        <span class="interest-chip">Toxicology</span>
         <span class="interest-chip">Microbiology</span>
       </div>
       <p class="section-note">
-        I am interested in research directions that sit between data-rich biological observation and predictive AI systems, especially when they can produce interpretable biological insight.
+        I am especially interested in combining mechanistic biological questions with foundation-model style representations.
       </p>
     </div>
   </section>
@@ -185,96 +187,33 @@ redirect_from:
     </div>
   </section>
 
-  <section class="section-card section-card--wide">
-    <div class="section-head">
-      <div>
-        <p class="section-kicker">Selected Work</p>
-        <h2>Featured Publications</h2>
-      </div>
-      <a class="text-link" href="/publications/">Full list</a>
-    </div>
-    <div class="feature-pub-grid">
-      <article class="feature-pub-card">
-        <img src="/images/2.png" alt="EmbryoTempoFormer figure">
-        <div class="feature-pub-card__body">
-          <span class="pub-item__meta">2026 | Artificial Intelligence in the Life Sciences</span>
-          <h3>EmbryoTempoFormer</h3>
-          <p>A clip-based framework for developmental tempo inference from zebrafish brightfield time-lapse microscopy.</p>
-          <a class="text-link" href="https://doi.org/10.1016/j.ailsci.2026.100170">DOI link</a>
-        </div>
-      </article>
-
-      <article class="feature-pub-card">
-        <img src="/images/4.png" alt="Zhengella sedimenti figure">
-        <div class="feature-pub-card__body">
-          <span class="pub-item__meta">2025 | Antonie van Leeuwenhoek</span>
-          <h3>Zhengella sedimenti and Phycobacter sedimenti</h3>
-          <p>Independent first-author work on two novel bacteria isolated from coastal sediment with genomic and metabolic analysis.</p>
-          <a class="text-link" href="https://doi.org/10.1007/s10482-025-02120-w">DOI link</a>
-        </div>
-      </article>
-
-      <article class="feature-pub-card">
-        <img src="/images/5.png" alt="Marine toxicology figure">
-        <div class="feature-pub-card__body">
-          <span class="pub-item__meta">2024 | Environmental Pollution</span>
-          <h3>Neurobehavioral Toxicity in Marine Medaka</h3>
-          <p>Co-first-author work on the combined neurobehavioral effects of micro or nanoplastics and triphenyltin exposure.</p>
-          <a class="text-link" href="https://doi.org/10.1016/j.envpol.2024.124334">DOI link</a>
-        </div>
-      </article>
-
-      <article class="feature-pub-card">
-        <img src="/images/1.png" alt="Virtual counselor framework">
-        <div class="feature-pub-card__body">
-          <span class="pub-item__meta">2024 | ICBioMed 2023</span>
-          <h3>Virtual Psychological Counselor</h3>
-          <p>A cross-domain idea combining EEG emotion detection with large-scale NLP models for personalized virtual counseling.</p>
-          <a class="text-link" href="https://doi.org/10.1117/12.3013169">DOI link</a>
-        </div>
-      </article>
-    </div>
-  </section>
-
   <section class="home-grid home-grid--two">
     <div class="section-card">
       <div class="section-head">
         <div>
-          <p class="section-kicker">Pipeline</p>
-          <h2>Research Spectrum</h2>
+          <p class="section-kicker">Recognition</p>
+          <h2>Awards & Honors</h2>
         </div>
       </div>
-      <div class="focus-columns">
-        <div class="focus-column">
-          <h3>AI Systems</h3>
-          <ul class="clean-list">
-            <li>AI for life science</li>
-            <li>Virtual cells and computational representation</li>
-            <li>Developmental tempo inference</li>
-            <li>EEG plus language-model integration</li>
-          </ul>
-        </div>
-        <div class="focus-column">
-          <h3>Biological Applications</h3>
-          <ul class="clean-list">
-            <li>Spatial multi-omics</li>
-            <li>Marine toxicology</li>
-            <li>Microbiology and novel species characterization</li>
-            <li>Cell-state interpretation</li>
-          </ul>
-        </div>
-      </div>
+      <ul class="clean-list">
+        <li>Excellent Graduate of Shandong University</li>
+        <li>Second Place, UESTC Summer Camp for Postgraduate Recommendation</li>
+        <li>Shandong University Research & Innovation Excellence Awards</li>
+        <li>Runner-up, Northeast Asia Academic Conference Competition</li>
+        <li>Runner-up, Campus Singer Competition</li>
+      </ul>
     </div>
 
     <div class="section-stack">
       <div class="section-card">
-        <p class="section-kicker">Recognition</p>
-        <h2>Awards & Honors</h2>
+        <p class="section-kicker">Network</p>
+        <h2>Collaborators & Co-workers</h2>
         <ul class="clean-list">
-          <li>Pre-admission offer from Westlake University</li>
-          <li>Cross-disciplinary training in biology and computer science</li>
-          <li>Independent first-author publication in microbiology</li>
-          <li>Co-first-author publications in environmental toxicology</li>
+          <li>Lei Hu - Westlake University</li>
+          <li>Haoyi Zheng - Zeng Lab</li>
+          <li>Chang Yu - Westlake University</li>
+          <li>Lijiayu Deng - Australian National University</li>
+          <li>Luotong Xie, Jiani Sun, Chuansen Yi, Shuhuai Xu, Qiwen Shi, Yisong Sheng</li>
         </ul>
       </div>
 
