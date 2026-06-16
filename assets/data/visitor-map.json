@@ -5,20 +5,6 @@
     "countries": 6,
     "cities": 10
   },
-  "countries": [
-    { "name": "China", "visits": 188 },
-    { "name": "United Kingdom", "visits": 29 },
-    { "name": "Australia", "visits": 24 },
-    { "name": "United States", "visits": 19 },
-    { "name": "Singapore", "visits": 15 }
-  ],
-  "cities": [
-    { "name": "Hangzhou", "country": "China", "visits": 76 },
-    { "name": "Jinan", "country": "China", "visits": 44 },
-    { "name": "Beijing", "country": "China", "visits": 31 },
-    { "name": "Wuhan", "country": "China", "visits": 19 },
-    { "name": "Canberra", "country": "Australia", "visits": 16 }
-  ],
   "locations": [
     { "name": "Hangzhou", "country": "China", "lat": 30.2741, "lon": 120.1551, "visits": 76 },
     { "name": "Jinan", "country": "China", "lat": 36.6512, "lon": 117.1201, "visits": 44 },
@@ -30,5 +16,12 @@
     { "name": "New Haven", "country": "United States", "lat": 41.3083, "lon": -72.9279, "visits": 9 },
     { "name": "Singapore", "country": "Singapore", "lat": 1.3521, "lon": 103.8198, "visits": 15 },
     { "name": "Hong Kong", "country": "China", "lat": 22.3193, "lon": 114.1694, "visits": 12 }
+  ],
+  "recent_visits": [
+    { "ip_masked": "183.13.xx.xx", "city": "Hangzhou", "country": "China", "time": "2026-06-16 21:12" },
+    { "ip_masked": "58.246.xx.xx", "city": "Shanghai", "country": "China", "time": "2026-06-16 19:43" },
+    { "ip_masked": "81.2.xx.xx", "city": "London", "country": "United Kingdom", "time": "2026-06-16 18:05" },
+    { "ip_masked": "101.167.xx.xx", "city": "Canberra", "country": "Australia", "time": "2026-06-16 16:32" },
+    { "ip_masked": "23.26.xx.xx", "city": "New Haven", "country": "United States", "time": "2026-06-16 14:27" }
   ]
 }

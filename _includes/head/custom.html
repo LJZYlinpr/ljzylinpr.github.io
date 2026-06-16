@@ -241,6 +241,7 @@
 
   .page__content .info-page-grid {
     display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.1rem;
   }
 
@@ -296,6 +297,10 @@
     .page__content .info-card {
       padding: 1.2rem;
       border-radius: 22px;
+    }
+
+    .page__content .info-page-grid {
+      grid-template-columns: 1fr;
     }
   }
 

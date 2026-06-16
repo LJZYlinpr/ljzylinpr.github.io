@@ -5,10 +5,7 @@
   const source = root.getAttribute("data-source");
   const pointsRoot = document.getElementById("visitor-map-points");
   const visitsEl = document.getElementById("visitor-total-visits");
-  const countriesEl = document.getElementById("visitor-total-countries");
-  const citiesEl = document.getElementById("visitor-total-cities");
-  const countryList = document.getElementById("visitor-country-ranking");
-  const cityList = document.getElementById("visitor-city-ranking");
+  const recentList = document.getElementById("visitor-recent-list");
 
   function projectPoint(lat, lon) {
     const x = ((lon + 180) / 360) * 100;
@@ -18,20 +15,6 @@
 
   function formatNumber(value) {
     return new Intl.NumberFormat("en-US").format(value || 0);
-  }
-
-  function renderRanking(listEl, rows, formatter) {
-    listEl.innerHTML = "";
-    rows.forEach(function (row) {
-      const item = document.createElement("li");
-      const label = document.createElement("span");
-      const value = document.createElement("strong");
-      label.textContent = formatter(row);
-      value.textContent = formatNumber(row.visits);
-      item.appendChild(label);
-      item.appendChild(value);
-      listEl.appendChild(item);
-    });
   }
 
   function renderPoints(locations) {
@@ -44,8 +27,8 @@
       const point = projectPoint(entry.lat, entry.lon);
       const dot = document.createElement("span");
       const pulse = document.createElement("span");
-      const size = 10 + Math.round((entry.visits / maxVisits) * 12);
-      const delay = (index % 9) * 0.28;
+      const size = 7 + Math.round((entry.visits / maxVisits) * 7);
+      const delay = (index % 9) * 0.24;
 
       dot.className = "visitor-point";
       dot.style.left = point.x + "%";
@@ -61,18 +44,24 @@
     });
   }
 
+  function renderRecent(rows) {
+    recentList.innerHTML = "";
+    rows.slice(0, 5).forEach(function (row) {
+      const item = document.createElement("li");
+      const meta = document.createElement("span");
+      const place = document.createElement("strong");
+      meta.textContent = row.ip_masked + " · " + row.time;
+      place.textContent = row.city + ", " + row.country;
+      item.appendChild(meta);
+      item.appendChild(place);
+      recentList.appendChild(item);
+    });
+  }
+
   function render(data) {
     visitsEl.textContent = formatNumber(data.totals && data.totals.visits);
-    countriesEl.textContent = formatNumber(data.totals && data.totals.countries);
-    citiesEl.textContent = formatNumber(data.totals && data.totals.cities);
-
     renderPoints(data.locations || []);
-    renderRanking(countryList, data.countries || [], function (row) {
-      return row.name;
-    });
-    renderRanking(cityList, data.cities || [], function (row) {
-      return row.name + ", " + row.country;
-    });
+    renderRecent(data.recent_visits || []);
   }
 
   fetch(source)
