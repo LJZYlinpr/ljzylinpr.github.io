@@ -5,49 +5,108 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% include base_path %}
+<div class="publication-board">
+  <section class="publication-board__intro">
+    <p class="section-kicker">Selected Works</p>
+    <h2>Published Papers</h2>
+    <p>
+      This page currently highlights the papers and manuscripts provided in the updated workbook. The layout emphasizes a short scientific summary plus a representative figure for each paper.
+    </p>
+  </section>
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">
-    You can also find my articles on
-    <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.
-  </div>
-{% endif %}
+  <section class="publication-stack">
+    <article class="publication-card">
+      <img src="/images/1.png" alt="Virtual psychological counselor framework">
+      <div class="publication-card__content">
+        <span class="pub-item__meta">2024 | Conference Paper | Co-first author</span>
+        <h3>Building a Virtual Psychological Counselor by Integrating EEG Emotion Detection with Large-Scale NLP Models</h3>
+        <p class="publication-card__venue">Third International Conference on Biological Engineering and Medical Science (ICBioMed 2023)</p>
+        <p>This work came from a cross-disciplinary idea developed during an online exchange course with Prof. Joni Wallis at UC Berkeley, combining brain-computer interface thinking with the emerging possibilities of ChatGPT-style language models.</p>
+        <a class="text-link" href="https://doi.org/10.1117/12.3013169">DOI: 10.1117/12.3013169</a>
+      </div>
+    </article>
 
-{%- comment -%}
-Render publications without relying on `site.publication_category`.
-Ordered categories: published → conference → manuscripts.
-Unmatched or missing categories go to "Other Publications".
-{%- endcomment -%}
+    <article class="publication-card">
+      <img src="/images/2.png" alt="EmbryoTempoFormer">
+      <div class="publication-card__content">
+        <span class="pub-item__meta">2026 | Artificial Intelligence in the Life Sciences | Second author</span>
+        <h3>EmbryoTempoFormer: clip-based developmental tempo inference from zebrafish brightfield time-lapse microscopy</h3>
+        <p class="publication-card__venue">Artificial Intelligence in the Life Sciences</p>
+        <p>This study develops a clip-based model for estimating developmental tempo from zebrafish time-lapse microscopy, linking representation learning to quantitative developmental dynamics.</p>
+        <a class="text-link" href="https://doi.org/10.1016/j.ailsci.2026.100170">DOI: 10.1016/j.ailsci.2026.100170</a>
+      </div>
+    </article>
 
-{% assign category_order = "published|conference|manuscripts" | split:"|" %}
+    <article class="publication-card">
+      <img src="/images/3.png" alt="Shimia fortis paper">
+      <div class="publication-card__content">
+        <span class="pub-item__meta">2026 | Current Microbiology | Second author</span>
+        <h3>Shimia fortis sp. nov., Isolated from Marine Sediment</h3>
+        <p class="publication-card__venue">Current Microbiology</p>
+        <p>This paper characterizes a novel marine bacterial species isolated from sediment, combining phylogenetic, genomic, and phenotypic evidence for taxonomic description.</p>
+        <a class="text-link" href="https://doi.org/10.1007/s00284-025-04686-0">DOI: 10.1007/s00284-025-04686-0</a>
+      </div>
+    </article>
 
-{%- for cat in category_order -%}
-  {%- assign printed = false -%}
-  {%- for post in site.publications reversed -%}
-    {%- if post.category == cat -%}
-      {%- unless printed -%}
-        {%- case cat -%}
-          {%- when "published" -%}{% assign section_title = "Journal Articles" %}
-          {%- when "conference" -%}{% assign section_title = "Conference Papers" %}
-          {%- when "manuscripts" -%}{% assign section_title = "Preprints & Manuscripts" %}
-        {%- endcase -%}
-        <h2>{{ section_title }}</h2><hr />
-        {%- assign printed = true -%}
-      {%- endunless -%}
-      {% include archive-single.html %}
-    {%- endif -%}
-  {%- endfor -%}
-{%- endfor -%}
+    <article class="publication-card">
+      <img src="/images/4.png" alt="Zhengella sedimenti paper">
+      <div class="publication-card__content">
+        <span class="pub-item__meta">2025 | Antonie van Leeuwenhoek | Independent first author</span>
+        <h3>Zhengella sedimenti sp. nov. and Phycobacter sedimenti sp. nov., two novel bacteria isolated from coastal sediment with genomic and metabolic analysis</h3>
+        <p class="publication-card__venue">Antonie van Leeuwenhoek</p>
+        <p>This independent first-author study reports two novel bacterial species from coastal sediment and integrates genomic and metabolic analyses to support their taxonomic characterization.</p>
+        <a class="text-link" href="https://doi.org/10.1007/s10482-025-02120-w">DOI: 10.1007/s10482-025-02120-w</a>
+      </div>
+    </article>
 
-{%- comment -%} Fallback section for posts with other/missing categories {%- endcomment -%}
-{% assign printed_unmatched = false %}
-{% for post in site.publications reversed %}
-  {% unless category_order contains post.category %}
-    {% unless printed_unmatched %}
-      <h2>Other Publications</h2><hr />
-      {% assign printed_unmatched = true %}
-    {% endunless %}
-    {% include archive-single.html %}
-  {% endunless %}
-{% endfor %}
+    <article class="publication-card">
+      <img src="/images/5.png" alt="Neurobehavioral toxicity figure">
+      <div class="publication-card__content">
+        <span class="pub-item__meta">2024 | Environmental Pollution | Co-first author</span>
+        <h3>Neurobehavioral toxicity induced by combined exposure of micro or nanoplastics and triphenyltin in marine medaka</h3>
+        <p class="publication-card__venue">Environmental Pollution</p>
+        <p>This work studies how combined exposure to micro or nanoplastics and triphenyltin affects neurobehavioral toxicity in marine medaka, providing evidence for mixture effects in aquatic toxicology.</p>
+        <a class="text-link" href="https://doi.org/10.1016/j.envpol.2024.124334">DOI: 10.1016/j.envpol.2024.124334</a>
+      </div>
+    </article>
+
+    <article class="publication-card">
+      <img src="/images/6.png" alt="Visual toxicity figure">
+      <div class="publication-card__content">
+        <span class="pub-item__meta">2025 | Environmental Science & Technology Letters</span>
+        <h3>Aggravated Visual Toxicity of Eco-Corona on Micro(Nano)Plastics in Marine Medaka</h3>
+        <p class="publication-card__venue">Environmental Science & Technology Letters</p>
+        <p>This paper examines how eco-corona formation on micro or nanoplastics aggravates visual toxicity in marine medaka, highlighting a biologically realistic pathway for nanoplastic hazard amplification.</p>
+        <a class="text-link" href="https://doi.org/10.1021/acs.estlett.5c00289">DOI: 10.1021/acs.estlett.5c00289</a>
+      </div>
+    </article>
+  </section>
+
+  <section class="publication-board__intro">
+    <p class="section-kicker">Ongoing Work</p>
+    <h2>Submitted and Under Review</h2>
+  </section>
+
+  <section class="ongoing-paper-grid">
+    <article class="ongoing-paper-card">
+      <span class="pub-item__meta">Under review | Second author</span>
+      <h3>Region-specific 3D transcriptional dynamics during human fetal brain development</h3>
+      <p>Target journal: Nature Neuroscience.</p>
+    </article>
+    <article class="ongoing-paper-card">
+      <span class="pub-item__meta">Submitted | Co-first second author</span>
+      <h3>IRE1alpha Knockout Ameliorates Stress and Enhances Developmental Fidelity of Human Cortical Organoids</h3>
+      <p>Focused on organoid development and stress-related developmental fidelity.</p>
+    </article>
+    <article class="ongoing-paper-card">
+      <span class="pub-item__meta">Submitted | Independent first author</span>
+      <h3>Effects of composite eco-coronas formed by Oryzias melastigma secretions and micro- or nanoplastics on collective self-organization regulation and neurobehavioral toxicity in larvae</h3>
+      <p>Expands the toxicology theme toward eco-corona-mediated collective effects.</p>
+    </article>
+    <article class="ongoing-paper-card">
+      <span class="pub-item__meta">Submitted | Co-first second author</span>
+      <h3>Probiotic potential of Citricoccus nitrophenolicus XS13 and comparative genomics of the Micrococcaceae family</h3>
+      <p>Combines probiotic potential assessment with comparative microbial genomics.</p>
+    </article>
+  </section>
+</div>
