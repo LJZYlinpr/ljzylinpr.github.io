@@ -80,7 +80,10 @@ redirect_from:
 
       <div class="hero-panel__card section-card hero-panel__card--map">
         <p class="hero-panel__label">World Map</p>
-        <div class="mini-world-map" id="visitor-analytics" data-source="{{ '/assets/data/visitor-map.json' | relative_url }}">
+        <div class="mini-world-map"
+             id="visitor-analytics"
+             data-source="{{ '/assets/data/visitor-map.json' | relative_url }}"
+             data-endpoint="{{ site.visitor_map.endpoint }}">
           <div class="mini-world-map__headline">
             <strong id="visitor-total-visits">0</strong>
             <span>Total visits recorded</span>

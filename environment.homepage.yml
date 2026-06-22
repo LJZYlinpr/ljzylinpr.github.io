@@ -1,0 +1,12 @@
+name: homepage
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ruby=3.3
+  - nodejs=22
+  - pip
+  - c-compiler
+  - cxx-compiler
+  - make
+  - pkg-config

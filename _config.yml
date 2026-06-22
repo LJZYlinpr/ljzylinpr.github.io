@@ -148,6 +148,9 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
+visitor_map:
+  endpoint               : "" # e.g. https://your-worker.your-subdomain.workers.dev/api/visit
+
 
 # Analytics
 analytics:
