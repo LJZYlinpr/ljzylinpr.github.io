@@ -78,26 +78,6 @@ redirect_from:
         </div>
       </div>
 
-      <div class="hero-panel__card section-card hero-panel__card--map">
-        <p class="hero-panel__label">World Map</p>
-        <div class="mini-world-map"
-             id="visitor-analytics"
-             data-source="{{ '/assets/data/visitor-map.json' | relative_url }}"
-             data-endpoint="{{ site.visitor_map.endpoint }}">
-          <div class="mini-world-map__headline">
-            <strong id="visitor-total-visits">0</strong>
-            <span>Total visits recorded</span>
-          </div>
-          <div class="mini-world-map__figure">
-            <img src="{{ '/images/simple-world-map.svg' | relative_url }}" alt="World map" />
-            <div class="mini-world-map__points" id="visitor-map-points"></div>
-          </div>
-          <div class="mini-world-map__recent">
-            <span class="mini-world-map__label">Recent Visitors</span>
-            <ul id="visitor-recent-list"></ul>
-          </div>
-        </div>
-      </div>
     </aside>
   </section>
 
