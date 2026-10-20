@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include seo.html %}
+  <meta name="theme-color" content="#f7f8f2">
+  <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/css/home-modern.css' | relative_url }}">
+  <script src="{{ '/assets/js/visitors.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="{{ '/' | relative_url }}"><span class="monogram">pl.</span> Peiran Lin</a>
+    <nav aria-label="Main navigation">
+      {% for link in site.data.navigation.main %}<a href="{{ link.url | relative_url }}"{% if link.url == page.url %} aria-current="page"{% endif %}>{{ link.title }}</a>{% endfor %}
+    </nav>
+    <a class="header-contact" href="mailto:linpeiran@westlake.edu.cn">Get in touch ↗</a>
+  </header>
+  <main id="main">{{ content }}</main>
+  <footer class="modern-footer"><a class="wordmark" href="{{ '/' | relative_url }}">pl.</a><p>Curiosity across disciplines. Discovery across scales.</p><span>© {{ site.time | date: '%Y' }} Peiran Lin · Hangzhou, China</span></footer>
+</body>
+</html>

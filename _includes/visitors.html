@@ -1,0 +1,12 @@
+<section class="visitor-section" id="visitors" data-endpoint="{{ site.visitor_api_url | default: '' | escape }}">
+  <div class="visitor-intro"><p class="section-kicker">Across the world</p><h2>Good ideas travel.<br>So do connections.</h2><p>A small window into the people visiting this corner of the internet.</p><a href="mailto:linpeiran@westlake.edu.cn">Say hello ↗</a></div>
+  <div class="visitor-dashboard">
+    <div class="visitor-heading"><span><span class="status-dot"></span> Visitor insights</span><span id="visitor-state">Not connected</span></div>
+    <div class="visitor-metrics"><div><strong id="visitor-total">—</strong><span>Visits · 30-min window</span></div><div><strong id="visitor-unique">—</strong><span>Unique visitors</span></div><div><strong id="visitor-countries">—</strong><span>Countries / regions</span></div></div>
+    <div class="visitor-self"><span>Your connection</span><strong id="visitor-location">Location unavailable</strong><code id="visitor-ip">IP unavailable</code></div>
+    <div id="visitor-regions" aria-label="Visitor countries and regions"></div>
+    <p id="visitor-message" role="status">Visitor statistics will appear once the service is connected.</p>
+    <details><summary>About these statistics</summary><p>Location is approximate and based on your network IP, not GPS. Your full IP is shown only to you and is not stored in the statistics database. Unique visitors are estimated from a keyed hash of the network IP; shared networks and VPNs affect this estimate. Only aggregate country counts are public. Do Not Track and Global Privacy Control requests are excluded from counting.</p></details>
+    <noscript><p>Enable JavaScript to view visitor insights.</p></noscript>
+  </div>
+</section>

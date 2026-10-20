@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: home
 title: ""
 permalink: /education/
 author_profile: true

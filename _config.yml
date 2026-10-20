@@ -160,7 +160,10 @@ include:
   - .htaccess
   - _pages
   - files
+visitor_api_url: "" # Deployed Worker URL, e.g. https://peiran-visitors.example.workers.dev
 exclude:
+  - worker
+  - tests
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

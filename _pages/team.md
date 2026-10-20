@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: home
 title: ""
 permalink: /team/
 author_profile: true

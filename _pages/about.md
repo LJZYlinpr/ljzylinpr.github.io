@@ -1,4 +1,5 @@
 ---
+layout: home
 permalink: /
 title: ""
 author_profile: false
@@ -28,8 +29,8 @@ redirect_from:
     </aside>
 
     <div class="hero-copy section-card">
-      <p class="hero-eyebrow">Peiran Lin | Westlake University</p>
-      <h1>Building AI methods for life science, virtual cells, and spatial omics.</h1>
+      <p class="hero-eyebrow"><span class="status-dot"></span> BIOLOGY × COMPUTATION</p>
+      <h1>Understanding life.<br><em>One cell at a time.</em></h1>
       <p class="hero-lead">
         I am a PhD student in Biology at Westlake University. My research sits at the intersection of computational biology,
         virtual-cell modeling, gene regulatory networks, and spatial multi-omics, with the goal of building interpretable AI systems for biological discovery.
@@ -39,9 +40,8 @@ redirect_from:
         <a class="hero-lab" href="https://lifesciences.westlake.edu.cn/labs/hongtao-yu/cell-biology-laboratory/lab-home/">Cell Biology Laboratory</a>
       </div>
       <div class="hero-actions">
-        <a class="home-button home-button--primary" href="mailto:linpeiran@westlake.edu.cn">Email Me</a>
-        <a class="home-button" href="/publications/">Publications</a>
-        <a class="home-button" href="/teaching/">Teaching</a>
+        <a class="home-button home-button--primary" href="/publications/">Explore my research <span aria-hidden="true">↗</span></a>
+        <a class="home-button" href="mailto:linpeiran@westlake.edu.cn">Let's connect <span aria-hidden="true">↗</span></a>
       </div>
     </div>
 
@@ -100,7 +100,7 @@ redirect_from:
     </div>
   </section>
 
-  <section class="home-grid home-grid--two">
+  <section id="research" class="home-grid home-grid--two">
     <div class="section-card">
       <p class="section-kicker">Profile</p>
       <h2>About</h2>
@@ -143,7 +143,7 @@ redirect_from:
     </div>
   </section>
 
-  <section class="section-card section-card--wide">
+  <section id="news" class="section-card section-card--wide">
     <div class="section-head">
       <div>
         <p class="section-kicker">Timeline</p>
@@ -202,4 +202,5 @@ redirect_from:
     </div>
   </section>
 
+  {% include visitors.html %}
 </div>
